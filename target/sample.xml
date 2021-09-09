@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.259906">
+<testcase classname="Verifying Login function of facebook application" name="Verifying login with invalid username and invalid password for facebook application" time="6.149123">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+When user should enter "hijavaa" and "WelcomeJava"..........................passed
+And user should click login button..........................................passed
+Then user should validate home page is present or not.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Login function of facebook application" name="Verifying login with invalid username and invalid password for facebook application 2" time="4.110783">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+When user should enter "hiSelenium" and "WelcomeSelenium"...................passed
+And user should click login button..........................................passed
+Then user should validate home page is present or not.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

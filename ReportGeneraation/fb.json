@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 676200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search count of a product from google",
+        "description": "",
+        "id": "getting-search-count-from-google;search-count-of-a-product-from-google;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 34900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7872727900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Google page",
+            "match": {
+              "location": "StepDef.userIsOnGooglePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 878857000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter text on search filed by given sheetname \"Sheet1\" and rownumber 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sheet1\"",
+                  "offset": 51
+                },
+                {
+                  "val": "1",
+                  "offset": 74
+                }
+              ],
+              "location": "StepDef.userEnterTextOnSearchFiledByGivenSheetnameAndRownumber(String,Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get the search count and add into excel",
+            "match": {
+              "location": "StepDef.getTheSearchCountAndAddIntoExcel()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Getting Search Count from google",
+    "description": "",
+    "id": "getting-search-count-from-google",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": []
+  }
+]

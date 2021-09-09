@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.755443">
+<testcase classname="Getting Search Count from google" name="Search count of a product from google" time="8.755443">
+<system-out><![CDATA[Given user is on Google page................................................passed
+When user enter text on search filed by given sheetname "Sheet1" and rownumber 1.passed
+And get the search count and add into excel.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
