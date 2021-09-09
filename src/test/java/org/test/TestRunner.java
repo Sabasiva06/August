@@ -13,13 +13,22 @@ import cucumber.api.junit.Cucumber;
 				"html:C:\\Users\\vels\\Music\\CucumberPro\\ReportGeneraation",
 				"json:C:\\Users\\vels\\Music\\CucumberPro\\ReportGeneraation\\fb.json",
 				"junit:C:\\Users\\vels\\Music\\CucumberPro\\ReportGeneraation\\fb.xml",
-				"json:C:\\Users\\vels\\Music\\CucumberPro\\CucumberReporting\\fb.json" }, 
-				snippets = SnippetType.CAMELCASE)
+				"json:C:\\Users\\vels\\Music\\CucumberPro\\CucumberReporting\\fb.json" }, snippets = SnippetType.CAMELCASE)
 public class TestRunner {
 
 	@AfterClass
 	public static void afterClass() {
 
 		ReportingClass.JVMReportGeneration("C:\\Users\\vels\\Music\\CucumberPro\\CucumberReporting\\fb.json");
+	}
+
+	public void muliplty() {
+		System.out.println("Product of two number");
+
+	}
+
+	public void division() {
+		System.out.println("Dicvision if Two numbers");
+
 	}
 }
