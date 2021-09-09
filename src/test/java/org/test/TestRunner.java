@@ -22,6 +22,16 @@ public class TestRunner {
 		ReportingClass.JVMReportGeneration("C:\\Users\\vels\\Music\\CucumberPro\\CucumberReporting\\fb.json");
 	}
 
+	public void add() {
+		System.out.println("add");
+
+	}
+
+	public void sub() {
+		System.out.println("SUb");
+
+
+	}
 	public void muliplty() {
 		System.out.println("Product of two number");
 
@@ -29,6 +39,6 @@ public class TestRunner {
 
 	public void division() {
 		System.out.println("Dicvision if Two numbers");
-
 	}
+	
 }
